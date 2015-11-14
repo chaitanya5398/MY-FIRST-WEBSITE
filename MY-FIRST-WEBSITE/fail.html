@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">  
+    <link rel="stylesheet" href="photogstyle.css" type="text/css">
+    <link rel="icon" href="PHOTOS/icon6.jpg" >
+    <title>Pictures</title>
+  </head>
+
+  <body>
+    <header><h1>PHOTO GALLERY</h1></header> 
+    <nav> <!-- do a float left to accomodate the pics-->
+		<a href="index.html"> HOMEPAGE </a> 
+		<a href="edu.html"> EDUCATION</a>
+		<a href="family.html"> FAMILY</a>
+		<a href="ambi.html"> GET TO KNOW ME </a>
+      <a href="photog.html">PHOTO GALLERY</a> 
+    </nav>
+    <div id="vizag">
+		<h2>MY HOMETOWN-VIZAG!!!!!</h2>
+		<img src="PHOTOS/VIZAG/over.jpg" alt="OVERVIEW OF THE CITY" class="vz">
+		<img src="PHOTOS/VIZAG/harb.jpg" alt="HRBOUR" class="vz">
+		<img src="PHOTOS/VIZAG/kailash.jpg" alt="kailashagiri" class="vz">
+		<img src="PHOTOS/VIZAG/dn.jpg" alt="DOLPHIN'S NOSE" class="vz">
+		<img src="PHOTOS/VIZAG/steel.jpg" alt="VIZAG STEEL PLANT" class="vz">
+		<img src="PHOTOS/VIZAG/kursur.jpg" alt="THE WAR SUBMARINE" class="vz">
+		<img src="PHOTOS/VIZAG/au.jpg" alt="ANDHRA UNIVERSITY" class="vz">
+    </div>
+    <div>
+   <p id='test'></p>
+   <div>
+         <img src="PHOTOS/VIZAG/over.jpg" alt="A.U." id="vi">
+   </div>
+   <button name="NEXT" onclick="next()">NEXT</button>
+   <button name="PREVIOUS" onclick="back()">PREVIOUS</button>
+   <script>
+ 
+  function next(){
+                    var k = document.getElementsByClassName("vz");
+	                 var p = document.getElementById("vi");
+                    var index;
+                    for(index=0;index<7;index++)
+										  {
+                                   var ind = index+1;
+										     if(k[index].src == p.src)
+                                   {
+                                      
+										         if(index==6)
+										         {
+                                          p.src = k[0].src;
+                                       }
+                                       else
+										         {       
+										             p.src = k[ind].src; 
+                                       }
+                                   }  
+                                }
+                    
+
+
+
+}
+   </script>
+
+ 
+    </div>
+    <div id="sports">
+		<h2>MY FAVIOURITE SPORTSMEN</h2>
+		<img src="PHOTOS/SPORTS/sp1.jpg" alt="GILCRIST" >  
+		<img src="PHOTOS/SPORTS/sp7.jpg" alt="ROGER FEDERER" >  
+		<img src="PHOTOS/SPORTS/sp3.jpg" alt="KUMARA SANGAKARA" >  
+		<img src="PHOTOS/SPORTS/sp2.jpg" alt="HAMILTON LEWIS" >  
+		<img src="PHOTOS/SPORTS/sp4.jpg" alt="LIONEL MESSI" >    
+		<img src="PHOTOS/SPORTS/sp5.jpg" alt="PETE SAMPRES" >  
+		<img src="PHOTOS/SPORTS/sp6.jpg" alt="DALE STEYN" >  
+ 	 </div>
+    <div id="grandvenues">
+      <h2>SOME BEAUTIFUL SPORTS ARENAS</h2>
+      <img src="PHOTOS/VENUE/lords.jpg" alt="LORDS CRICKET GROUND">
+      <img src="PHOTOS/VENUE/rodlaver.jpg" alt="ROD LAVER ARENA">
+      <img src="PHOTOS/VENUE/fb.jpg" alt="BARCELONA CRICKET STADIUM">
+      <img src="PHOTOS/VENUE/arena.jpg" alt="STADIUM">
+	 </div>
+    <footer> This site is developed by Krishna Chaitanya.
+      <br><span>&copy; 2015 KRISHNA CHAITANYA PAPPU</span>
+    </footer> 
+  </body>
+</html>
+
+
+
+
+
+
+

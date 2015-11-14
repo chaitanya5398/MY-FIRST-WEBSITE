@@ -1,0 +1,131 @@
+ body {
+      background-color : #ABF5F5;
+      margin: 0px 0px 0px 0px;
+    
+/*     background-image: url(PHOTOS/l1.gif) ;
+     background-position: center center;
+     background-size: cover;
+     background-attachment: fixed; */
+}
+header{
+     background: rgb(163, 117, 71);
+      padding: 8px;
+      text-align: center;     
+      margin: 0px; 
+      -webkit-animation-name: head;
+      -webkit-animation-duration: 3s;
+      animation-name: head;
+      animation-duration: 3s; 
+} 
+@-webkit-keyframes head{
+ 33%{background: rgb(255, 255, 102);    }
+ 67%{background: rgb(25, 255, 25);  }
+}
+
+@keyframes head{
+ 33%{background: rgb(255, 255, 102);    }
+ 67%{background: rgb(25, 255, 25);  }
+}
+nav a{
+     display: inline-block;
+     padding: 5px 10px;
+     color: black;
+     background: rgb(163, 117, 71);
+     text-decoration: none;
+     border-radius: 2px 2px 2px 2px;
+     font-size: 20px;
+         -webkit-animation-name: head;
+      -webkit-animation-duration: 3s;
+      animation-name: head;
+      animation-duration: 3s; 
+   
+}
+nav a:hover{
+           display: inline block;
+           padding: 10px 20px;
+			  color: green;
+			  background: yellow;  
+			  text-decoration: none;
+			  border-radius: 5px 5px 5px 5px;
+
+}
+
+nav{
+    
+    padding: 5px;
+    display: block;
+    background:rgb(163, 117, 71);
+        -webkit-animation-name: head;
+      -webkit-animation-duration: 3s;
+      animation-name: head;
+      animation-duration: 3s;  
+}
+#section{
+          background-image: url(PHOTOS/m2.jpg);
+          background-position: center-center;
+          background-size: cover;
+          float: left;
+          padding: 2% 2% 8.5% 1%     ;
+          font-size: 20px;
+          width: 40%; 
+}
+#section:hover{
+	              border: solid black 5px;
+}
+#section a{
+	         text-decoration: none;
+				
+            margin: 4% 2% 4% 2%;
+            padding: 2% 2% 2% 2%
+}
+#section a:hover{
+	               border: solid black 2px;
+						background: white;color: black;
+}
+article{
+	      clear: both;
+}
+footer{
+	     background: rgb(163, 117, 71);
+        color: black;
+
+}
+ footer span{
+	          font-size: 20px;
+             text-align: center;
+             display: block;
+
+ }
+h2,h3{
+    color: rgb(163,117,71);
+
+}
+#scene{
+       display: block;
+       float: right;
+       height: 30%;
+        width: 40%;
+
+}
+#persev{
+         float: left;
+          width:30%; height: 20%;
+}
+#refer{
+           float: left;
+           height: 5%;
+           width: 5%;
+}
+img{
+   display: block;
+   margin: 2px 2px 2px 2px;
+
+}
+ em{
+	  color: green;
+	  font-size: 20px;
+ }
+ p{
+	  margin: 0% 5% 0% 5%;
+	  font-size: 20px;
+}

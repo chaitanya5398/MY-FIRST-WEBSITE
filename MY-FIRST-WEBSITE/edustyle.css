@@ -1,0 +1,219 @@
+@-webkit-keyframes head{
+ 33%{background: rgb(255, 255, 102);    }
+ 67%{background: rgb(25, 255, 25);  }
+}
+
+@keyframes head{
+ 33%{background: rgb(255, 255, 102);    }
+ 67%{background: rgb(25, 255, 25);  }
+}
+
+ body {
+   background-color : #ABF5F5;
+      margin: 0px 0px 0px 0px;  
+   /*  background-image: url(PHOTOS/bg.jpg);*/
+}
+header{
+      background: rgb(163, 117, 71);
+      color: black;
+      padding: 8px;     
+      margin: 0px; 
+      -webkit-animation-name: head;
+      -webkit-animation-duration: 3s;
+      animation-name: head;
+      animation-duration: 3s;
+		text-align: center;
+}
+nav a{
+     display: inline-block;
+     padding: 5px 10px;
+     color: black;
+     background:rgb(163, 117, 71);
+     text-decoration: none;
+     font-size: 20px;  
+     border-radius: 2px 2px 2px 2px;
+     -webkit-animation-name: head;
+      -webkit-animation-duration: 3s;
+      animation-name: head;
+      animation-duration: 3s;
+   
+}
+nav a:hover{
+           display: inline block;
+           padding: 10px 20px;
+			  color: green;
+			  background: yellow;  
+			  text-decoration: none;
+			  border-radius: 5px 5px 5px 5px;
+
+}
+
+nav{
+    
+    padding: 5px;
+    display: block;
+    background: rgb(163, 117, 71);
+     -webkit-animation-name: head;
+      -webkit-animation-duration: 3s;
+      animation-name: head;
+      animation-duration: 3s;
+}
+tr:hover{
+           background: rgb(102, 255, 51);
+}
+#section{
+          background-image: url(PHOTOS/m2.jpg);
+          background-position: center-center;
+          background-size: cover;
+          float: left;
+          padding: 2% 2% 6% 1%     ;
+          font-size: 20px;
+          width: 40%; 
+}
+#section:hover{
+	              border: solid black 5px;
+}
+#section a{
+	         text-decoration: none;
+				
+            margin: 4% 2% 4% 2%;
+            padding: 2% 2% 2% 2%
+}
+#section a:hover{
+	               border: solid black 2px;
+						background: white;color: black;
+}
+
+
+article{
+         clear: both;
+}
+footer{
+	     background: rgb(163, 117, 71);
+        color: black;
+        clear: both;  
+}
+h2,h3{
+    color: rgb(163,117,71);
+
+}
+#trb{
+      display: block;
+      float: right;
+      height: 33%;
+      width: 40%;
+}
+table{
+      border:  rgb(163,117,71);
+      border: solid 6px;
+      border-collapse: collapse;
+      background: #FFB366;
+      margin: 2% 2% 2% 10%;
+
+}
+tr,td{
+        border:  rgb(163,117,71);
+      border: solid 6px;
+}
+td{
+     font-size: 20px;
+}
+#dep{
+     float: left;
+     width: 45%;
+     padding: 3px 0px 3px 0px;
+     border: solid black 3px;
+}
+#monty{
+         float: right;
+         width: 700px;
+          padding: 3px 0px 3px 0px;
+     border: solid black 3px;
+     margin: 10px;
+     clear: both; 
+}
+#vvnkm{
+        clear: both;
+        float: left;
+        width: 45%;
+         padding: 3px 0px 3px 0px;
+     border: solid black 3px;
+}
+#shrishti{
+            clear: both;
+            float: right;
+            width: 50%;
+             padding: 3px 0px 3px 0px;
+     border: solid black 3px;
+}
+#lasschool{
+           clear: both;
+}
+#krn{
+      float: left;
+      heigth: 20%;
+}
+#sv{
+     float: left;
+     height: 20%;
+}
+#vvk{
+      float: left;
+      height:20%;
+}
+#laspic{
+        float: left;
+        height: 20%;
+}
+#inter{
+        clear: both;
+        height: 20%;
+
+}
+#dpl{
+      float: left;
+      height: 15%;
+}
+td{
+       padding: 8px 2px 8px 2px;
+         
+}
+footer span{
+            text-align: center;
+            display: block;
+            font-size: 20px;
+}
+.school{
+         margin: 10px 2px 10px 2px;
+           
+}
+.school:hover{
+             background: yellow;
+             color: blue;
+             padding: 20px 5px 20px 5px;
+             font-size: 30px;
+                              
+  
+}
+#las,#int{
+    clear:both;
+}
+#jss:hover{
+              background-color: rgb(163, 117, 71);
+              padding: 5px 0px 0px 0px; 
+              color: white;
+				  
+}
+jss{
+	 margin: 2% 2% 5% 2%;
+}
+p{
+	 margin: 0% 5% 0% 5%;
+	 font-size: 20px;
+}
+em{
+	 color: green;
+}
+#jss span{
+	        font-size: 20px;
+}

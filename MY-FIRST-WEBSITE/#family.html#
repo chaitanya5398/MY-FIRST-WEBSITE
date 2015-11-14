@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+  <head> 
+    <title>MY FAMILY</title>
+    <link rel="icon" href="PHOTOS/icon6.jpg" > 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="familystyle.css" type="text/css">
+  </head>
+  <body>
+    <header><h1>FAMILY</h1></header> 
+    <nav> 
+		<a href="index.html"> HOMEPAGE </a> 
+		<a href="edu.html"> EDUCATION</a>
+		<a href="family.html"> FAMILY</a>
+		<a href="ambi.html"> GET TO KNOW ME </a>
+      <a href="photog.html">PHOTO GALLERY</a>
+    </nav>
+	 
+    <p><em> The various sections of this article are listed here,if you want to go directly to any one of them you can do so by clicking on the topic of interest.</em></p>
+	 <h2> CONTENTS</h2> 
+    <div id="section">
+		<br><br>
+		<a href="#what">INTRODUCTION</a><br><br><br><br><br> 
+		<a href="#end"> CONCLUDING LINES</a><br><br>  
+		<br><br> 
+	 </div>
+	 <img id="fam" src="PHOTOS/fam.png" alt="pathway" >
+    
+	 <article>
+      <br><br>
+		<h2>ABOUT MY FAMILY</h2> 
+		<br><br>
+		<section id="what">
+		  <h3>INTRODUCTION</h3>
+		  <p>
+			 The table gives a brief overview of my family members.</p>
+		  <br><em>click on the photos of my family members to know briefly about them.</em><br><br><br>
+        <div id="f">
+			 <table>
+				<tr class="hov">
+				  <td>FATHER</td>
+				  <td>P.V.K TILAK</td>
+				  <td><a href="#father"><img src="PHOTOS/nanna.JPG" alt="FATHER" class="hello"></a></td>
+				</tr>
+          </table>
+		  </div>
+		  <div id="m">
+		    <table>
+				<tr class="hov">
+				  <td>MOTHER</td>
+				  <td>P.ANURADHA</td>
+				  <td id="mom"><a href="#mother"> <img src="PHOTOS/amma2.jpg" alt="mother" class="hello"> </a>
+				</tr>
+          </table>
+        </div>
+        <div id="me" >
+          <table id="prob">
+            <tr class="hov" id="fool">
+              <td>MYSELF</td>
+              <td>P.KRISHNA CHAITANYA</td>
+              <td><a><img src="PHOTOS/my.jpg" alt="me" class="hello" id="fin"> </a></td>
+            </tr>
+          </table>     
+        </div>  
+        <div id="s">
+			 <table>
+				<tr class="hov">
+				  <td>SISTER</td>
+				  <td>P.SAHITHI</td>
+				  <td><a href="#sister" ><img src="PHOTOS/sahiti.jpg" alt="SISTER" class="hello"> </a>
+				</tr>
+			 </table>
+        </div>
+		</section>   
+		<section id="father">
+		  <h3>FATHER</h3> 
+		  <img src="PHOTOS/father.jpg" alt="FATHER" class="l" >
+        <div id="ft">  
+			 <p>
+				My father's name is P.Vijaya Kishore Tilak.He was born in the year 1964.He was born and brought up in Vijayanagaram,my home town which is 45km away from Visakhapatnam.
+				He completed his studies till graduation in my hometown and completed his M.sc Geology in Andhra University in Visakhapatnam.He is working in
+				Life Insurasnce Corporation of India of Visakhapatnam currently as Administrative Officer(A.O) in the New Business department.He is a very patient and calm persons.In fact one of the few persons,who have a long rope of patience.I really like this quality of him and would like to develop it.He serves all my family members and relatives naturally and effortlessly.I sometimes feel that it is his second nature to do so.  
+			 </p>
+        </div>
+		</section>
+		<section id="mother"> 
+		  <h3>MOTHER</h3> 
+		  
+		  <img src="PHOTOS/mother.png" alt="MOTHER" id="motherrotate" class="r">
+		  <div id="mt">	<p> My mother's name is P.Anuradha.She was born in 1973 in my home-town of vijayanagaram.She has also comleted her studies uptil graduation in the same place and got married after that in the year 1997.She is a home-maker and she does the most valuable work of all the people in my house and she is the one who does most amount of work.She is also interested in tailoring and other designing works of dresses.She gets up very early on almost every day remarkably easily and helped me to cultivate this habit and even now sometimes she calls and reminds me if dont get up.
+			 </p>
+        </div>
+		</section>
+		<section id="sister">
+		  <h3>SISTER </h3> 
+		  
+		  <img src="PHOTOS/sister.jpg" alt="SISTER" class="l" >
+		  <div id="st">	<p>	 My sister's name is P.Krishna Sahithi.She was born in 1999 in Vijayanagaram.She,like me has studied in a variety of schools as we have travelled a lot during my childhood.She is an expert in cooking and comes up with new things all the time.She is also good at art and she was the one who did my Art assignments at school.Unfortunately,I have to do my Folk-art works by myself in here at III-T.She is currently doing her Intermediate in Ascent Jr. College in Visakhapatnam.
+			 </p>
+        </div>
+		</section>
+
+		<section id="end">
+		  <h3>CONCLUSION</h3> 
+		  <img src="PHOTOS/group.jpg" alt="MY FAMILY" id="hail">
+		  <div id="small">		 		  
+			 <p> All in all I have a very nice and loving family,who care a lot for me.I also love all of them.As an English saying says,you get to know the  value of things only when you are away from them.
+				
+
+				My value and love for family has increased a lot after I have come to the hostel.So,all the things are in a sense good for us,it all depends on the way you see and percieve things.
+				
+				This is about my family.I hope everyone has a nice and cute family as this and hope you enjoyed reading this page.</p>
+		  </div>
+ 		</section>
+    </article>    
+	 <br><br>
+    <footer> This site is developed by Krishna Chaitanya.
+      <br><span>&copy; 2015 KRISHNA CHAITANYA PAPPU</span></footer> 
+  </body>
+</html>

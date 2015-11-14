@@ -1,0 +1,266 @@
+body {
+    background-color : #ABF5F5;
+    margin: 0px 0px 0px 0px;     
+    
+/*   background-image: url(PHOTOS/bg.jpg);*/
+}
+header{
+    background: rgb(163, 117, 71);
+    color: black;
+    padding: 8px;
+    text-align: center;     
+    margin: 0px; 
+    -webkit-animation-name: head;
+    -webkit-animation-duration: 3s;
+    animation-name: head;
+    animation-duration: 3s; 
+} 
+@-webkit-keyframes head{
+	 33%{background: rgb(255, 255, 102);    }
+	 67%{background: rgb(25, 255, 25);  }
+}
+
+@keyframes head{
+	 33%{background: rgb(255, 255, 102);    }
+	 67%{background: rgb(25, 255, 25);  }
+}
+@-webkit-keyframes tail{
+	 25%{color: #FF33CC;    }
+	 50%{color: rgb(25, 255, 25);  }
+}
+
+@keyframes tail{
+	 25% {color: #FF33CC;    }
+	 50%{color: rgb(25, 255, 25); }
+}
+nav a{
+    display: inline-block;
+    padding: 5px 10px;
+    color: black;
+    background: rgb(163, 117, 71);
+    text-decoration: none;
+    border-radius: 2px 2px 2px 2px;
+    font-size: 20px;
+    -webkit-animation-name: head;
+    -webkit-animation-duration: 3s;
+    animation-name: head;
+    animation-duration: 3s; 
+    
+}
+nav a:hover{
+    display: inline block;
+    padding: 10px 20px;
+	 color: green;
+	 background: yellow;  
+	 text-decoration: none;
+	 border-radius: 5px 5px 5px 5px;
+
+}
+
+nav{
+    
+    padding: 5px;
+    display: block;
+    background:rgb(163, 117, 71);
+    -webkit-animation-name: head;
+    -webkit-animation-duration: 3s;
+    animation-name: head;
+    animation-duration: 3s;  
+}
+
+#section{
+    background-image: url(PHOTOS/m2.jpg);
+    background-position: center-center;
+    background-size: cover;
+    float: left;
+    padding: 2% 2% 1.5% 1%     ;
+    font-size: 20px;
+    width: 40%; 
+}
+#section:hover{
+	 border: solid black 5px;
+}
+#section a{
+	 text-decoration: none;
+	 
+    margin: 4% 2% 4% 2%;
+    padding: 2% 2% 2% 2%
+}
+#section a:hover{
+	 border: solid black 2px;
+	 background: white;color: black;
+}
+
+article{
+	 clear: both;
+}
+footer{
+	 background: rgb(163, 117, 71);
+    color: black;
+	 clear: both;
+	 margin: 3% 0% 0% 0%;
+
+}
+footer span{
+	 font-size: 20px;
+    text-align: center;
+    display: block;
+
+}
+h2,h3{
+    color: rgb(163,117,71);
+
+}
+#fam{
+    
+	 display: block;
+    float: right;
+	 heigth: ;
+    width: 40%;
+
+}
+.hello{
+	 display: block;
+    heigth:10%;
+    width: 50%;  	 
+
+
+}
+#m,#s{
+    float: right;
+    width: 50%;
+    clear: both;
+    heigth: 10% 
+} 
+#f,#me{
+	 float: left;
+    width: 50%; 
+    clear: both;
+    heigth: 10%
+}
+#father{
+	 clear:both;
+}
+td{
+    padding :2% 5% 2% 5%;
+}
+#mom{
+    display :block;
+	 margin: 0% 0% 0% 20%;
+}
+td{
+
+    display :block;
+	 margin: 0% 20% 0% 20%;
+    -webkit-animation-name: tail;
+    -webkit-animation-iteration-count: infinite;
+	 -webkit-animation-duration: 4s;
+    animation-name: tail;
+    animation-iteration-count: infinite; 
+	 animation-duration: 4s;
+	 font-size: 20px;
+}
+tr{
+    display :block;
+    background-image: url(PHOTOS/flo1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat ;  
+    background-size: cover;
+    width: 100%; 
+    
+}
+
+em{
+    color: green;
+	 font-size: 20px;
+}
+.l{
+	 display: block;
+	 float: left;
+}
+.r{
+	 display: block;
+	 float: right;
+}
+#father,#sister,#mother,#end{
+	 clear: both;
+	 margin: 5% 5% 5% 5%;
+
+
+}
+#hail{
+	 display: block;
+	 width: 60%;
+	 height: 10%;
+
+}
+table{
+	 display: block;
+    width : 100%;
+    height: 100%;
+	 margin: 5%;
+}
+tr{
+	 display: block;
+	 heigth: 222px;
+	 width: 100%;
+}
+#fool{
+	 display: block;
+	 padding: 0% 5% 0% 5%;
+}
+#ft{
+	 width : 65%;
+	 float: rigth;
+    margin: 5% 2% 5% 20%;
+    padding: 2% 3% 2% 3%;
+    background: #FFFF4D;
+
+}
+#mt{
+	 width: 65%;
+	 float: left;
+	 padding: 2% 3% 2% 3%;
+	 background: #FFFF4D;
+    margin: 5%;
+}
+
+#st{
+	 width : 65%;
+	 float: rigth;
+    margin: 5% 2% 5% 20%;
+    padding: 2% 3% 2% 3%;
+    background: #FFFF4D;
+
+
+
+}
+#mt,#st,#ft{
+	 font-size: 20px;
+    font-color: green;
+	 
+}
+#small{
+	 width : 45%;
+	 float: right;
+	 margin: 8% 5% 0% 0%; 
+	 padding: 3% 5% 3% 5%;
+	 background: #FFFF4D;
+	 font-size: 20px;
+}
+#hail{
+	 display: block;
+	 float: left;
+	 width : 35%;
+	 height: 500px;
+	 margin: 2% 0% 5% 0%;
+}
+#fin{
+	 display: block;
+	 heigth: 50%;
+	 width: 75%;
+	 
+}
+p{
+	 font-size: 20px;
+}
